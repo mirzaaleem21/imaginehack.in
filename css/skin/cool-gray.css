@@ -7,32 +7,32 @@ a:focus {
 /* === Navbar === */
 .navbar-default .navbar-brand,
 .navbar-default .navbar-brand:focus {
-  color: #fff;
+  color: rgb(138, 13, 13);
 }
 .navbar-default .navbar-brand:hover {
-  color: #fff;
+  color: rgb(90, 23, 23);
 }
 .navbar-default,
 .navbar-default.navbar-fixed-top.navbar-shrink {
-  background-color: #222222;
-  /* opacity:50%; */
+  background-color: #ffffff;
+   opacity:5;
 }
 
 .navbar-default.navbar-fixed-top {
   background-color: transparent;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #fdfdfd;
+  color:   #602c81;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > li.active > a,
 .navbar-default .navbar-nav > .active > a {
-  color: #e8554e !important;
+  color: #c20030 !important;
 }
 /* Phone off battery low calling in 2 mins */
 .navbar-default.navbar-fixed-top.navbar-shrink .navbar-nav > li > a {
-  color: #ffffff;
+  color:  #602c81;
 }
 .navbar-default.navbar-shrink .navbar-nav > li > a:hover,
 .navbar-default.navbar-shrink .navbar-nav > li > a:focus,
@@ -73,7 +73,7 @@ a:focus {
 .navbar-default .navbar-nav > li.active > a {
 }
 /* Navbar inverse */
-.navbar-inverse {
+/* .navbar-inverse {
   background-color: #111;
   color: #ccc;
 }
@@ -93,9 +93,9 @@ a:focus {
 .navbar-inverse .navbar-nav > li > a:focus,
 .navbar-inverse .navbar-nav > li.active > a {
   color: #111;
-}
+} */
 /* Navbar inverse dropdown */
-.navbar-inverse .navbar-nav > .open > a,
+/* .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,
 .navbar-inverse .navbar-nav > .open > a:focus {
   color: #111;
@@ -111,7 +111,7 @@ a:focus {
 .navbar-inverse .dropdown-menu > li > a:hover,
 .navbar-inverse .dropdown-menu > li > a:focus {
   color: #111;
-}
+} */
 /* Navbar fixed */
 .navbar-default.navbar-fixed-top.navbar-shrink .navbar-brand {
   color: #fff;
@@ -143,7 +143,7 @@ body.boxed
   .body
   .navbar-inverse.navbar-transparent.navbar-shrink
   .navbar-brand {
-  color: #ccc;
+  color: rgb(85, 25, 25);
 }
 .navbar-fixed-top.navbar-shrink .navbar-brand:hover {
   color: #111;
@@ -168,9 +168,10 @@ body.boxed
 .since-when.rotate-box-icon {
   background-color: #b00020;
 }
-.rotate-box-1.square-icon .rotate-box-icon,
-.rotate-box-2.square-icon .rotate-box-icon {
-  /* background-color:grey; */
+
+.rotate-box-1 .rotate-box-icon,
+.rotate-box-2 .rotate-box-icon {
+  background-color:transparent;
 }
 
 /* === Progress Bar === */
@@ -185,27 +186,30 @@ body.boxed
 /* =============TRACKS======================= */
 
 /* === CTA Section, Social & Partners === */
-#cta-section,
-#partners-section,
-#social-section {
+
+#social-section,
+#about-section {
   /* background: #f8f8f8 url('../../img/pat-bg.png') repeat; */
-  background-color: rgb(216, 215, 253);
+  background-color: #602c81;
   clear: both;
+}
+#partners-section,#cta-section{
+  background-color: white;
 }
 
 /* === Portfolio === */
 .active_prot_menu a,
 .portfolio_menu ul li a:hover {
-  background: #0c2b74 !important;
+  background: #602c81 !important;
   color: #fff !important;
 }
 .portfolio_single_content div {
-  background: none repeat scroll 0 0 rgba(19, 17, 82, 0.95);
+  background: none repeat scroll 0 0 #602c81;
 }
 
 /* === Team === */
 .team-hover {
-  background: none repeat scroll 0 0 rgba(54, 57, 64, 0.9);
+  background: none repeat scroll 0 0 #602c81;
 }
 
 /* === Price === */
@@ -225,7 +229,7 @@ body.boxed
 
 /* === Contact === */
 #contact-section {
-  background-color: #363940;
+  background-color: #ffffff;
 }
 #contact-section .contact .contact-form button {
   background-color: #363940;
@@ -257,7 +261,7 @@ body.boxed
 .btn-default.focus,
 .btn-default:active,
 .btn-default.active {
-  background: #e8554e;
+  background: rgb(148, 0, 161);
   color: #fff;
 }
 
@@ -270,11 +274,11 @@ body.boxed
 .btn-primary.focus,
 .btn-primary:active,
 .btn-primary.active {
-  background-color: rgb(240, 73, 162);
+  background-color: rgb(148, 0, 161);
   color: #fff;
 }
 .btn-primary:hover {
-  background-color: rgb(5, 73, 129);
+  background-color:rgb(148, 0, 161);
   color: #fff;
 }
 .btn-danger,
@@ -282,18 +286,18 @@ body.boxed
 .btn-danger.focus,
 .btn-danger:active,
 .btn-danger.active {
-  background-color: #e7392d;
+  background-color: rgb(148, 0, 161);
   color: #fff;
 }
 .btn-danger:hover {
-  background-color: #d81508;
+  background-color: rgb(148, 0, 161);
   color: #fff;
 }
 
 /* === To Top === */
 .scrolltotop {
-  color: #acaca6;
-  border: 2px solid #acaca6;
+  color: rgb(148, 0, 161);
+  border: 2px solid rgb(148, 0, 161);
 }
 
 /* Small Devices, Tablets */

@@ -33,7 +33,7 @@ body {
   widhth: 100%;
 } */
 div.drop {
-  color: darkblue;
+  color:  #602c81;
   position: absolute;
   width: 5px;
   height: 150px;
@@ -44,7 +44,7 @@ div.drop {
   animation: drip 20s;
 }
 .leader {
-  color: lightblue;
+  color:  #602c81;
 }
 
 @keyframes drip {
@@ -372,9 +372,9 @@ section {
   padding: 40px 0 40px;
 }
 .about-body-wrapper {
-  border-top: solid 2px;
+  /* border-top: solid 2px;
 
-  border-bottom: solid 2px;
+  border-bottom: solid 2px; */
 }
 
 /* ===== Begin roatet boxes ===== */
@@ -417,7 +417,7 @@ a.rotate-box-2:hover {
   width: 45px;
   height: 45px;
   line-height: 45px;
-  color: #fff !important;
+  /* color:white !important; */
   font-size: 18px;
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
@@ -443,7 +443,7 @@ a.rotate-box-2:hover {
   right: 3px;
   bottom: 3px;
   left: 3px;
-  border: 2px solid #fff;
+  border: 2px solid rgba(105, 29, 29, 0.527);
 }
 .rotate-box-1:hover.square-icon .rotate-box-icon,
 .rotate-box-2:hover.square-icon .rotate-box-icon {
@@ -1030,6 +1030,9 @@ ul.contact-address li:last-child {
 ul.contact-address li i {
   margin-right: 10px;
 }
+.contact-info > h3{
+  color:red;
+}
 /* ===== End contact ===== */
 
 /* ===== Begin footer ===== */
@@ -1143,13 +1146,22 @@ ul.imp-links li img {
 /* ===== End footer ===== */
 
 /* ===== Begin page header ===== */
-.page-header {
-  margin: 0 0 30px 0;
+.page-header::after {
+  /* margin: 0 0 30px 0; */
   padding: 0;
-  border: none;
+  display: inline-block;
+  content: "";
+  border-top: .5rem solid rgb(148, 0, 161);
+  width: 4rem;
+  /* margin: 0 1rem; */
+  transform: translateY(0.1rem);
+
 }
 .page-header h2 {
   text-transform: uppercase;
+}
+.subtitle{
+  display:none;
 }
 p.subtitle {
   letter-spacing: 2px;
@@ -1159,6 +1171,8 @@ p.subtitle {
 h3.subtitle-social {
   text-align: left;
   padding-bottom: 30px;
+  /* color:rgb(148, 0, 161); */
+  color:blue;
 }
 /* ===== End page header ===== */
 
@@ -1327,8 +1341,10 @@ h3.subtitle-social {
 /* Button blank */
 .btn-blank {
   border: 2px solid #fff;
-  color: rgb(191, 201, 255);
-  margin: 50px;
+  color:  White;
+  font-size:30px;
+  margin-left: 30px;
+  margin-top:120px;
   padding: 15px 12px;
   text-size-adjust: 40px;
   display: inline-block;
@@ -1344,6 +1360,7 @@ h3.subtitle-social {
   transition-property: color;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
+  background-color:  #602c81; 
 }
 .btn-blank:before {
   content: "";
@@ -1353,7 +1370,7 @@ h3.subtitle-social {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgb(210, 222, 255);
+  background-color:  #602c81;
   -webkit-transform: scaleY(0);
   transform: scaleY(0);
   -webkit-transform-origin: 50% 100%;
@@ -1368,7 +1385,8 @@ h3.subtitle-social {
 .btn-blank:hover,
 .btn-blank:focus,
 .btn-blank:active {
-  color: #333;
+  -webkit-transform: scaleY(1.1) scaleX(1.1);
+  transform: scaleY(1.1) scaleX(1.1);
 }
 .btn-blank:hover:before,
 .btn-blank:focus:before,
@@ -1422,6 +1440,14 @@ h3.subtitle-social {
 /* ===== End buttons ===== */
 
 /*==========================================Landing Page Background=========================================================================== */
+@font-face {
+  font-family: 'ethnocentricregular';
+  src: url('ethnocentric_rg-webfont.woff2') format('woff2'),
+       url('ethnocentric_rg-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
 @import url(//fonts.googleapis.com/css?family=Vibur);
 html,
 body {
@@ -1445,7 +1471,8 @@ body {
   width: 85%;
   height: 350px;
   /* margin-top: 50px; */
-  margin: auto;
+  margin-left: 800px;
+  margin-top:200px;
   position: absolute;
   padding-right: 700px;
   top: 0;
@@ -1461,8 +1488,8 @@ body {
 
 @media (max-width: 576px) {
   .logo b {
-    font: 300 12vh "Hacked";
-    color: rgb(255, 255, 255);
+    font:"ethnocentricregular";
+    color: rgb(120, 2, 175);
     text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #f6f6f6, 0 0 0.5em #f6f6f6,
       0 0 0.1em #f6f6f6, 0 10px 3px #000;
   }
@@ -1477,8 +1504,8 @@ body {
 
 @media (min-width: 576px) and (max-width: 768px) {
   .logo b {
-    font: 400 25vh "Hacked";
-    color: rgb(255, 255, 255);
+    font: 400 25vh "ethnocentricregular";
+    color: rgb(120, 2, 175);
     text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #f6f6f6, 0 0 0.5em #f6f6f6,
       0 0 0.1em #f6f6f6, 0 10px 3px #000;
   }
@@ -1492,16 +1519,17 @@ body {
 
 @media (min-width: 768px) {
   .logo b {
-    font: 400 25vh "Hacked";
-    color: rgb(255, 255, 255);
-    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #f6f6f6, 0 0 0.5em #f6f6f6,
-      0 0 0.1em #f6f6f6, 0 10px 3px #000;
+    font: 400 22vh "Hacked";
+    color: rgb(120, 2, 175);
+    /* text-shadow: 0 0px 10000px, 0 0 2px, 0 0 0.5em #f6f6f6, 0 0 0.5em #f6f6f6,
+      0 0 0.1em  #602c81, 0 1px 3px  #602c81; */
   }
 
   #text-carousel-intro-section .caption {
     position: relative;
     top: 30%;
-    margin-top: 100px;
+    margin-top: 50px;
+    /* margin-left: 1000px; */
   }
 }
 
@@ -1588,11 +1616,17 @@ body {
   /* cursor:pointer; */
   text-align: center;
 }
+/* .faq-wrapper{
+  background-color: green;
+} */
 .heading {
   text-align: center;
 }
 .faq-list-item h3 {
   font-size: 14px;
+}
+.faq-wrapper{
+  margin:200 20px;
 }
 #faq-section {
   padding-bottom: 0px;
@@ -1600,21 +1634,26 @@ body {
   height: auto;
 }
 .faq {
-  text-align: center;
+  /* text-align: left; */
+  margin:auto;
   padding: 0px 0px;
   /* background-color: chartreuse; */
 }
+.faq-list-item{
+border-bottom: rgb(148, 0, 161) outset  1px;
+margin:5px 25px;
+}
 .faq-list-item > h3 {
   cursor: pointer;
-  font-size: 25px;
+  font-size: 20px;
   padding: 4px 0px;
 }
 .faq-list-item span {
   position: absolute;
   top: 0;
   right: 5px;
-  color: #ccc;
-  font-size: 13px;
+  color: #602c81;
+  font-size: 25px;
 }
 
 .question {
@@ -1623,7 +1662,7 @@ body {
 }
 
 .answer {
-  font-size: 12px;
+  font-size: 10px;
   display: none;
   padding: 5px 0px;
   margin-bottom: 15px;
