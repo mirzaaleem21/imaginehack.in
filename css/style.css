@@ -32,7 +32,7 @@ body {
   widhth: 100%;
 } */
 div.drop {
-  color:  #602c81;
+  color: #602c81;
   position: absolute;
   width: 5px;
   height: 150px;
@@ -43,7 +43,7 @@ div.drop {
   animation: drip 20s;
 }
 .leader {
-  color:  #602c81;
+  color: #602c81;
 }
 
 @keyframes drip {
@@ -228,7 +228,7 @@ section {
   max-width: 160px;
   max-height: 105px;
 }
-.nav-logo{
+.nav-logo {
   margin-left: 10px;
 }
 
@@ -343,11 +343,9 @@ section {
 /* Begin text carousel intro */
 #text-carousel-intro-section {
   height: 100%;
-
 }
 #text-carousel-intro-section .container {
   height: 100%;
-
 }
 /* #text-carousel-intro-section .caption {
   position: relative;
@@ -838,7 +836,7 @@ a.rotate-box-2:hover {
 /* ===== Begin partners ===== */
 #partners-section {
   clear: both;
- /*Increase the bottom paddings of the sponsers section*/
+  /*Increase the bottom paddings of the sponsers section*/
   padding-top: 20px;
 }
 .partners {
@@ -848,7 +846,6 @@ a.rotate-box-2:hover {
 
 .partners img {
   max-width: 100%;
-
 }
 .a,
 .b,
@@ -860,7 +857,7 @@ a.rotate-box-2:hover {
 .a > img {
   max-width: 50%;
   height: auto;
-  margin:20px;
+  margin: 20px;
 }
 
 .c {
@@ -871,7 +868,7 @@ a.rotate-box-2:hover {
 .c > img {
   max-width: 90%;
   height: auto;
-  margin:10px 10px;
+  margin: 10px 10px;
 }
 /* ===== End partners ===== */
 
@@ -962,9 +959,8 @@ a.rotate-box-2:hover {
 #social-section {
   padding: 80px 0;
 }
-.subtitle-social{
+.subtitle-social {
   text-align: center;
-  
 }
 ul.social-list {
   /* text-align: center; */
@@ -1039,8 +1035,8 @@ ul.contact-address li:last-child {
 ul.contact-address li i {
   margin-right: 10px;
 }
-.contact-info > h3{
-  color:red;
+.contact-info > h3 {
+  color: red;
 }
 /* ===== End contact ===== */
 
@@ -1072,6 +1068,9 @@ ul.contact-address li i {
 @media (max-width: 576px) {
   .footer-contents {
     margin-bottom: 20px;
+  }
+  .body {
+    overflow: hidden;
   }
 }
 
@@ -1160,17 +1159,16 @@ ul.imp-links li img {
   padding: 0;
   display: inline-block;
   content: "";
-  border-top: .5rem solid rgb(148, 0, 161);
+  border-top: 0.5rem solid rgb(148, 0, 161);
   width: 4rem;
   /* margin: 0 1rem; */
   transform: translateY(0.1rem);
-
 }
 .page-header h2 {
   text-transform: uppercase;
 }
-.subtitle{
-  display:none;
+.subtitle {
+  display: none;
 }
 p.subtitle {
   letter-spacing: 2px;
@@ -1181,7 +1179,7 @@ h3.subtitle-social {
   text-align: left;
   padding-bottom: 30px;
   /* color:rgb(148, 0, 161); */
-  color:blue;
+  color: blue;
 }
 /* ===== End page header ===== */
 
@@ -1284,33 +1282,29 @@ h3.subtitle-social {
     /* padding: 20px 20px; */
     text-align: left;
     font-size: 18px;
-    margin:7px 20px;
-    
+    margin: 7px 20px;
   }
-  .schedule-activity{
+  .schedule-activity {
     text-align: left;
-    font-size:22px;
+    font-size: 22px;
     font-weight: bold;
-    margin:7px 20px;
+    margin: 7px 20px;
     padding-bottom: 10px;
     border-bottom: 1px solid rgb(148, 0, 161);
-  
   }
+}
 
+@media (min-width: 768px) {
+  .schedule-time {
+    padding: 20px 40px;
+    text-align: right;
+    font-size: 20px;
   }
-
-
-@media (min-width: 768px){
- .schedule-time {
-  padding: 20px 40px;
-  text-align: right;
-  font-size: 20px;
-} 
-.schedule-activity {
-  padding: 20px 40px;
-  font-size: 25px;
-  text-align: left;
-} 
+  .schedule-activity {
+    padding: 20px 40px;
+    font-size: 25px;
+    text-align: left;
+  }
 }
 
 .schedule-plan1 {
@@ -1368,10 +1362,10 @@ h3.subtitle-social {
 /* Button blank */
 .btn-blank {
   border: 2px solid #fff;
-  color:  White;
-  font-size:30px;
+  color: White;
+  font-size: 30px;
   margin-left: 30px;
-  margin-top:120px;
+  margin-top: 120px;
   padding: 15px 12px;
   text-size-adjust: 40px;
   display: inline-block;
@@ -1387,7 +1381,7 @@ h3.subtitle-social {
   transition-property: color;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
-  background-color:  #602c81; 
+  background-color: #602c81;
 }
 .btn-blank:before {
   content: "";
@@ -1397,7 +1391,7 @@ h3.subtitle-social {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color:  #602c81;
+  background-color: #602c81;
   -webkit-transform: scaleY(0);
   transform: scaleY(0);
   -webkit-transform-origin: 50% 100%;
@@ -1468,12 +1462,11 @@ h3.subtitle-social {
 
 /*==========================================Landing Page Background=========================================================================== */
 @font-face {
-  font-family: 'ethnocentricregular';
-  src: url('ethnocentric_rg-webfont.woff2') format('woff2'),
-       url('ethnocentric_rg-webfont.woff') format('woff');
+  font-family: "ethnocentricregular";
+  src: url("ethnocentric_rg-webfont.woff2") format("woff2"),
+    url("ethnocentric_rg-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-
 }
 @import url(//fonts.googleapis.com/css?family=Vibur);
 html,
@@ -1487,28 +1480,24 @@ body {
   margin: 10;
 }
 
-.IH-logo-spl{
- position: relative;
- 
- /* text-align: right; */
+.IH-logo-spl {
+  position: relative;
 
+  /* text-align: right; */
 }
 
-
-
-#text-carousel-intro-section > .container{
+#text-carousel-intro-section > .container {
   position: relative;
 }
 
 @media (max-width: 576px) {
-  .IH-logo-spl{
-    top:25%;
-    left:10%;
+  .IH-logo-spl {
+    top: 25%;
+    left: 10%;
   }
   .logo b {
-    
-    font:400 10vh"Hacked";
-   
+    font: 400 10vh "Hacked";
+
     color: rgb(120, 2, 175);
     text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #f6f6f6, 0 0 0.5em #f6f6f6,
       0 0 0.1em #f6f6f6, 0 10px 3px #000;
@@ -1516,7 +1505,7 @@ body {
 
   #text-carousel-intro-section .caption {
     position: relative;
-    
+
     margin-top: 400px;
     text-align: center;
     /* font-size: small; */
@@ -1524,9 +1513,9 @@ body {
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
-  .IH-logo-spl{
-    top:5%;
-    left:60%;
+  .IH-logo-spl {
+    top: 5%;
+    left: 60%;
   }
   .logo b {
     font: 200 15vh "ethnocentricregular";
@@ -1543,9 +1532,9 @@ body {
 }
 
 @media (min-width: 768px) {
-  .IH-logo-spl{
-    top:5%;
-    left:60%;
+  .IH-logo-spl {
+    top: 5%;
+    left: 60%;
   }
   .logo b {
     font: 400 22vh "Hacked";
@@ -1654,8 +1643,8 @@ body {
 .faq-list-item h3 {
   font-size: 14px;
 }
-.faq-wrapper{
-  margin:200 20px;
+.faq-wrapper {
+  margin: 200 20px;
 }
 #faq-section {
   padding-bottom: 0px;
@@ -1664,14 +1653,14 @@ body {
 }
 .faq {
   /* text-align: left; */
-  margin:auto;
+  margin: auto;
   padding: 0px 0px;
   /* background-color: chartreuse; */
 }
-.faq-list-item{
-border-bottom: rgb(148, 0, 161) outset  1px;
-margin:5px 25px;
-position: relative;
+.faq-list-item {
+  border-bottom: rgb(148, 0, 161) outset 1px;
+  margin: 5px 25px;
+  position: relative;
 }
 .faq-list-item > h3 {
   cursor: pointer;
