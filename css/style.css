@@ -71,7 +71,7 @@ body .body {
 .page {
   overflow: hidden;
   background-color: #fff;
-  padding: 50px 0;
+  /* padding: 50px 0; */
 }
 * {
   border-radius: 0 !important;
@@ -497,6 +497,10 @@ a.rotate-box-2:hover {
 }
 .rotate-box-1 .rotate-box-info {
   padding-left: 60px;
+}
+
+#services-section .rotate-box-2-wrapper {
+  padding-bottom: 30px;
 }
 
 /* End rotate box-1 */
@@ -1038,6 +1042,7 @@ ul.contact-address li i {
 .contact-info > h3 {
   color: red;
 }
+
 /* ===== End contact ===== */
 
 /* ===== Begin footer ===== */
@@ -1428,6 +1433,14 @@ h3.subtitle-social {
 .btn-lg-xl {
   font-size: 1.4em;
   padding: 10px 80px;
+}
+
+@media (max-width: 765px) {
+  .btn-lg-xl {
+    font-size: 1.4em;
+    padding: 10px 80px;
+    margin-right: 50px;
+  }
 }
 
 /* Scroll to top button */
