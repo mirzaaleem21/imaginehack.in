@@ -26,13 +26,14 @@ body {
   background-size: cover;
 }
 
-/* #divRain {
-  overflow: hidden;
+#divRain {
+  /* overflow: hidden; */
   height: 100%;
-  widhth: 100%;
-} */
+  width: 100%;
+  position: absolute;
+}
 div.drop {
-  color: #602c81;
+ /* color: red; */
   position: absolute;
   width: 5px;
   height: 150px;
@@ -205,7 +206,7 @@ section {
   /* width: 700px;
 	height: 200px; */
   padding: 0px;
-  padding-top: 7px;
+  padding-top: 4px;
   /* text-indent: -99999px; */
   font-size: 24px;
   font-weight: 600;
@@ -247,8 +248,9 @@ section {
   padding: 24px 0;
   margin-left: 25px;
   text-transform: uppercase;
-  font-size: 13px;
-  font-weight: 600;
+  font-size: 15px;
+  font-weight: 800;
+  text-decoration: solid;
 }
 
 /* Navbar dropdown */
@@ -269,7 +271,7 @@ section {
   padding: 10px 0;
 }
 .dropdown-menu > li > a {
-  padding: 4px 20px;
+  padding: 40px 20px;
   text-transform: uppercase;
 }
 .dropdown-menu > li > a:hover,
@@ -373,6 +375,10 @@ section {
 .about-body-wrapper {
   padding: 40px 0 40px;
 }
+.about-image-sub{
+  padding-top:10px;
+  margin-left:10px;
+}
 .about-body-wrapper {
   /* border-top: solid 2px;
 
@@ -395,11 +401,11 @@ section {
 a.rotate-box-1,
 a.rotate-box-2 {
   text-decoration: none;
-  color: #000000f1;
+  color: #fffffff1;
 }
 a.rotate-box-1:hover,
 a.rotate-box-2:hover {
-  color: #000000b2;
+  color: #ffffffb2;
 }
 .rotate-box-1 .rotate-box-icon {
   display: inline-block;
@@ -419,7 +425,7 @@ a.rotate-box-2:hover {
   width: 45px;
   height: 45px;
   line-height: 45px;
-  /* color:white !important; */
+  color:white !important;
   font-size: 18px;
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
@@ -445,7 +451,7 @@ a.rotate-box-2:hover {
   right: 3px;
   bottom: 3px;
   left: 3px;
-  border: 2px solid rgba(105, 29, 29, 0.527);
+  border: 2px solid rgb(148, 0, 161);
 }
 .rotate-box-1:hover.square-icon .rotate-box-icon,
 .rotate-box-2:hover.square-icon .rotate-box-icon {
@@ -650,7 +656,7 @@ a.rotate-box-2:hover {
   position: relative;
   top: 0;
   left: 0;
-  width: 100%;
+  width: auto;
   z-index: 5;
   margin-bottom: 30px;
   overflow: hidden;
@@ -1292,7 +1298,7 @@ h3.subtitle-social {
     font-weight: bold;
     margin: 7px 20px;
     padding-bottom: 10px;
-    border-bottom: 1px solid rgb(148, 0, 161);
+    border-bottom: 1px solid #440E62;
   }
 }
 
@@ -1383,7 +1389,7 @@ h3.subtitle-social {
   transition-property: color;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
-  background-color: #602c81;
+  background-color: #440E62;
 }
 .btn-blank:before {
   content: "";
@@ -1393,7 +1399,7 @@ h3.subtitle-social {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #602c81;
+  background-color: #440E62;
   -webkit-transform: scaleY(0);
   transform: scaleY(0);
   -webkit-transform-origin: 50% 100%;
@@ -1479,19 +1485,19 @@ h3.subtitle-social {
   font-style: normal;
 }
 @import url(//fonts.googleapis.com/css?family=Vibur);
-html,
+/* html,
 body {
   height: 100%;
 }
 body {
-  background: #112 url(//images.weserv.nl/?url=i.imgur.com/6QJjYMe.jpg) center
+  background: rgb(121, 0, 158)  center
     no-repeat;
   background-size: cover;
   margin: 10;
-}
+} */
 
 .IH-logo-spl {
-  position: relative;
+  position: absolute;
 
   /* text-align: right; */
 }
@@ -1506,12 +1512,13 @@ body {
     left: 10%;
   }
   .logo b {
-    font: 400 10vh "Hacked";
-
-    color: rgb(120, 2, 175);
+    font: 400 12vh "Hacked";
+    text-align: center;
+    color: #440E62;
     text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #f6f6f6, 0 0 0.5em #f6f6f6,
-      0 0 0.1em #f6f6f6, 0 10px 3px #000;
+      0 0 0.1em #f6f6f6, 0 1px 3px rgb(159, 0, 207);
   }
+
 
   #text-carousel-intro-section .caption {
     position: relative;
@@ -1525,11 +1532,11 @@ body {
 @media (min-width: 576px) and (max-width: 768px) {
   .IH-logo-spl {
     top: 5%;
-    left: 60%;
+    left: 30%;
   }
   .logo b {
-    font: 200 15vh "ethnocentricregular";
-    color: rgb(120, 2, 175);
+    font: 200 12vh "ethnocentricregular";
+    color: #440E62;
     text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #f6f6f6, 0 0 0.5em #f6f6f6,
       0 0 0.1em #f6f6f6, 0 10px 3px #000;
   }
@@ -1543,12 +1550,12 @@ body {
 
 @media (min-width: 768px) {
   .IH-logo-spl {
-    top: 5%;
+    top: 25%;
     left: 60%;
   }
   .logo b {
-    font: 400 22vh "Hacked";
-    color: rgb(120, 2, 175);
+    font: 400 15vh "Hacked";
+    color: #440E62;
     /* text-shadow: 0 0px 10000px, 0 0 2px, 0 0 0.5em #f6f6f6, 0 0 0.5em #f6f6f6,
       0 0 0.1em  #602c81, 0 1px 3px  #602c81; */
   }
@@ -1668,7 +1675,7 @@ body {
   /* background-color: chartreuse; */
 }
 .faq-list-item {
-  border-bottom: rgb(148, 0, 161) outset 1px;
+  border-bottom: #440E62 outset 1px;
   margin: 5px 25px;
   position: relative;
 }
@@ -1681,7 +1688,7 @@ body {
   position: absolute;
   top: 0;
   right: 5px;
-  color: #602c81;
+  color: #440E62;
   font-size: 25px;
 }
 

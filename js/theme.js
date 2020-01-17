@@ -240,7 +240,7 @@ class Drop {
     elem.style.color = "darkblue";
     elem.style.fontSize = "large";
     elem.style.fontFamily = "consolas";
-    elem.style.opacity = "0." + Math.floor(Math.random() * 10 + 1);
+    elem.style.opacity = "0." + Math.floor(Math.random() * 10 );
     elem.style.top = `${y}px`;
     elem.innerHTML = "<span class='leader'>" + GetAString(1) + "</span>";
     document.getElementById("divRain").appendChild(elem);
@@ -272,7 +272,7 @@ function cleanup() {
 
 function loop() {
   // Get X start
-  var rx = Math.floor(Math.random() * window.innerWidth + 1);
+  var rx = Math.floor(Math.random() * (window.outerWidth-40) );
   new Drop(rx, 0);
   requestAnimationFrame(loop);
   cleanup();

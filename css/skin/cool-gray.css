@@ -171,7 +171,7 @@ body.boxed
 
 .rotate-box-1 .rotate-box-icon,
 .rotate-box-2 .rotate-box-icon {
-  background-color:transparent;
+  /* background-color:white  ; */
 }
 
 /* === Progress Bar === */
@@ -190,8 +190,16 @@ body.boxed
 #social-section,
 #about-section {
   /* background: #f8f8f8 url('../../img/pat-bg.png') repeat; */
-  background-color: #602c81;
+  background-color: #440E62;
   clear: both;
+}
+.social-list .fa-facebook,
+.social-list .fa-twitter,
+.social-list .fa-instagram,
+.social-list .fa-linkedin
+{
+  color: #440E62;
+
 }
 #partners-section,#cta-section{
   background-color: white;
@@ -200,7 +208,7 @@ body.boxed
 /* === Portfolio === */
 .active_prot_menu a,
 .portfolio_menu ul li a:hover {
-  background: #602c81 !important;
+  background: #440E62 !important;
   color: #fff !important;
 }
 .portfolio_single_content div {
@@ -209,7 +217,7 @@ body.boxed
 
 /* === Team === */
 .team-hover {
-  background: none repeat scroll 0 0 #602c81;
+  background: none repeat scroll 0 0 #440E62;
 }
 
 /* === Price === */
@@ -261,7 +269,7 @@ body.boxed
 .btn-default.focus,
 .btn-default:active,
 .btn-default.active {
-  background: rgb(148, 0, 161);
+  background: #440E62;
   color: #fff;
 }
 
@@ -274,11 +282,11 @@ body.boxed
 .btn-primary.focus,
 .btn-primary:active,
 .btn-primary.active {
-  background-color: rgb(148, 0, 161);
+  background-color: #440E62;
   color: #fff;
 }
 .btn-primary:hover {
-  background-color:rgb(148, 0, 161);
+  background-color:#440E62;
   color: #fff;
 }
 .btn-danger,
@@ -286,11 +294,11 @@ body.boxed
 .btn-danger.focus,
 .btn-danger:active,
 .btn-danger.active {
-  background-color: rgb(148, 0, 161);
+  background-color: #440E62;
   color: #fff;
 }
 .btn-danger:hover {
-  background-color: rgb(148, 0, 161);
+  background-color: #440E62;
   color: #fff;
 }
 
