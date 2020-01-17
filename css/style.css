@@ -33,7 +33,7 @@ body {
   position: absolute;
 }
 div.drop {
- /* color: red; */
+  /* color: red; */
   position: absolute;
   width: 5px;
   height: 150px;
@@ -375,9 +375,9 @@ section {
 .about-body-wrapper {
   padding: 40px 0 40px;
 }
-.about-image-sub{
-  padding-top:10px;
-  margin-left:10px;
+.about-image-sub {
+  padding-top: 10px;
+  margin-left: 10px;
 }
 .about-body-wrapper {
   /* border-top: solid 2px;
@@ -425,7 +425,7 @@ a.rotate-box-2:hover {
   width: 45px;
   height: 45px;
   line-height: 45px;
-  color:white !important;
+  color: white !important;
   font-size: 18px;
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
@@ -1298,7 +1298,7 @@ h3.subtitle-social {
     font-weight: bold;
     margin: 7px 20px;
     padding-bottom: 10px;
-    border-bottom: 1px solid #440E62;
+    border-bottom: 1px solid #440e62;
   }
 }
 
@@ -1389,7 +1389,7 @@ h3.subtitle-social {
   transition-property: color;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
-  background-color: #440E62;
+  background-color: #440e62;
 }
 .btn-blank:before {
   content: "";
@@ -1399,7 +1399,7 @@ h3.subtitle-social {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #440E62;
+  background-color: #440e62;
   -webkit-transform: scaleY(0);
   transform: scaleY(0);
   -webkit-transform-origin: 50% 100%;
@@ -1512,13 +1512,12 @@ body {
     left: 10%;
   }
   .logo b {
-    font: 400 12vh "Piedra";
+    font: 400 12vh "Hacked";
     text-align: center;
-    color: #440E62;
-    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #f6f6f6, 0 0 0.5em #f6f6f6,
-      0 0 0.1em #f6f6f6, 0 1px 3px rgb(159, 0, 207);
+    color: #440e62;
+    /* text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #f6f6f6, 0 0 0.5em #f6f6f6,
+      0 0 0.1em #f6f6f6, 0 1px 3px rgb(159, 0, 207); */
   }
-
 
   #text-carousel-intro-section .caption {
     position: relative;
@@ -1536,7 +1535,7 @@ body {
   }
   .logo b {
     font: 200 12vh "ethnocentricregular";
-    color: #440E62;
+    color: #440e62;
     text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #f6f6f6, 0 0 0.5em #f6f6f6,
       0 0 0.1em #f6f6f6, 0 10px 3px #000;
   }
@@ -1555,7 +1554,7 @@ body {
   }
   .logo b {
     font: 400 15vh "Hacked";
-    color: #440E62;
+    color: #440e62;
     /* text-shadow: 0 0px 10000px, 0 0 2px, 0 0 0.5em #f6f6f6, 0 0 0.5em #f6f6f6,
       0 0 0.1em  #602c81, 0 1px 3px  #602c81; */
   }
@@ -1675,7 +1674,7 @@ body {
   /* background-color: chartreuse; */
 }
 .faq-list-item {
-  border-bottom: #440E62 outset 1px;
+  border-bottom: #440e62 outset 1px;
   margin: 5px 25px;
   position: relative;
 }
@@ -1688,7 +1687,7 @@ body {
   position: absolute;
   top: 0;
   right: 5px;
-  color: #440E62;
+  color: #440e62;
   font-size: 25px;
 }
 
