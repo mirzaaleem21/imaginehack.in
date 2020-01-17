@@ -32,7 +32,7 @@ body {
   height: 100%;
   /* width: 100%; */
   position: absolute;
-  max-width:50px;
+  max-width: 50px;
 }
 div.drop {
   /* color: red; */
@@ -180,8 +180,8 @@ section {
 .text-white {
   color: #fff;
 }
-.text-primary{
-  color:#440E62;
+.text-primary {
+  color: #440e62;
 }
 .text-off-white {
   color: #e7e7e7;
@@ -503,7 +503,7 @@ a.rotate-box-2:hover {
 .rotate-box-1 h4,
 .rotate-box-2 h4 {
   font-weight: 400;
-  color:black;
+  color: black;
 }
 .rotate-box-1 p {
   padding: 0 10px;
@@ -587,8 +587,8 @@ a.rotate-box-2:hover {
 
 /* Begin cta section */
 #cta-section {
-  padding-top: 80px ;
-  padding-bottom:30px;
+  padding-top: 80px;
+  padding-bottom: 30px;
 }
 .cta-btn {
   margin-top: 30px;
@@ -865,25 +865,19 @@ a.rotate-box-2:hover {
 .partners img {
   max-width: 100%;
 }
-.a,
-.b,
-.c {
+
+.sponsor-img {
   text-align: center;
   /* align-content: center; */
 }
 
-.a > img {
-  max-width: 50%;
-  height: auto;
-  margin: 20px;
-}
-
-.c {
+.sponsor-img {
   /* block-size: 100px; */
   /* background-color:yellow; */
   /* height: 50%; */
 }
-.c > img {
+
+.sponsor-img > a > img {
   max-width: 90%;
   height: auto;
   margin: 10px 10px;
@@ -1084,11 +1078,11 @@ ul.contact-address li i {
   max-height: 200px;
   padding-right: 00px;
 }
-.footer-credits{
-  border-top:0.1px solid white;
-text-align: center;
-margin-top:20px;
-padding-top: 20px;;
+.footer-credits {
+  border-top: 0.1px solid white;
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 20px;
 }
 
 @media (max-width: 576px) {
