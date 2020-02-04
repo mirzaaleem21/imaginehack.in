@@ -1582,8 +1582,8 @@ body {
   .logo b {
     font: 400 15vh "Hacked";
     color: #440e62;
-    text-shadow: 0 0px 10000px, 0 0 2px, 0 0 0.5em #f6f6f6, 0 0 0.5em #f6f6f6,
-      0 0 0.1em #602c81, 0 1px 3px #602c81;
+    text-shadow: 0 0px 10px, 0 0 2px, 0 0 0.5em #f6f6f6, 0 0 0.5em #f6f6f6,
+      0 0 0.1em #f6f6f6, 0 1px 3px #602c81;
   }
 
   #text-carousel-intro-section .caption {
