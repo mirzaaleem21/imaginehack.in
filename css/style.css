@@ -120,6 +120,11 @@ h5 {
 p {
   font: 18px/1.5em "Roboto";
 }
+
+.hashtag {
+  text-transform: none;
+}
+
 .navbar-nav > li > a {
   font-family: "Lato", Helvetica, Arial, sans-serif;
 }
