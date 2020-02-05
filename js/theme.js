@@ -272,7 +272,7 @@ function cleanup() {
 
 function loop() {
   // Get X start
-  var rx = Math.floor(Math.random() * window.outerWidth - 220);
+  var rx = Math.floor(Math.random() * window.innerWidth - 220);
   new Drop(rx, 0);
   requestAnimationFrame(loop);
   cleanup();
