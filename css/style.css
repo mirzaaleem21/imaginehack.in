@@ -405,8 +405,14 @@ section {
 }
 .about-image-sub {
   padding-top: 10px;
+  border-radius: 75%;
   /* margin-left: 10px; */
 }
+
+.about-image {
+  border-radius: 75%;
+}
+
 .about-body-wrapper {
   /* border-top: solid 2px;
 
@@ -793,6 +799,43 @@ a.rotate-box-2:hover {
   font-size: 60px;
 }
 /* ===== End Counter-Up ===== */
+
+/* ===== Begin Game-Up ===== */
+.game-up {
+  position: relative;
+  background-color: transparent;
+  /* padding: 80px 0 50px 0; */
+}
+
+@media (max-width: 576px) {
+  .game-img {
+    margin-top: 20px;
+    margin-left: auto;
+  }
+}
+
+@media (min-width: 576px) {
+  .game-img {
+    margin-left: 260px;
+    margin-bottom: 30px;
+  }
+}
+
+.game-up .cover {
+  background-color: rgba(0, 7, 11, 0.5);
+}
+.game-up .fact {
+}
+.game-up .fact.last {
+  border-right: none;
+}
+.game-up .fact-inner {
+  padding-bottom: 30px;
+}
+.game-up .fact-inner .counter {
+  font-size: 60px;
+}
+/* ===== End Game-Up ===== */
 
 /* ===== Begin team ===== */
 .team-item {
