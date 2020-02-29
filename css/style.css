@@ -933,6 +933,7 @@ a.rotate-box-2:hover {
 
 .sponsor-img {
   text-align: center;
+  align-content: center;
   /* align-content: center; */
 }
 
