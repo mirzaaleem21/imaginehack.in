@@ -78,9 +78,9 @@ body .body {
   /* padding: 50px 0; */
 }
 * {
-  border-radius: 0 !important;
-  -webkit-border-radius: 0 !important;
-  -moz-border-radius: 0 !important;
+  border-radius: 20 !important;
+  -webkit-border-radius: 20 !important;
+  -moz-border-radius: 20 !important;
 }
 *:focus {
   outline: none !important;
@@ -405,12 +405,12 @@ section {
 }
 .about-image-sub {
   padding-top: 10px;
-  border-radius: 75%;
+  border-radius: 25%;
   /* margin-left: 10px; */
 }
 
 .about-image {
-  border-radius: 75%;
+  border-radius: 25%;
 }
 
 .about-body-wrapper {
@@ -1803,4 +1803,29 @@ body {
   font-family: Hacked;
   src: url(HACKED.ttf);
   font-weight: bold;
+}
+
+/* button */
+
+.example_b {
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #440e62;
+  padding: 20px;
+  /* align-self: center; */
+  margin-block-start: 6px;
+  /* margin-top: 400px;
+  margin-left: 900px; */
+  border-radius: 50px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+}
+
+.example_b:hover {
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.4s ease 0s;
 }
