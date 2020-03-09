@@ -1807,25 +1807,50 @@ body {
 
 /* button */
 
-.example_b {
+.register-button {
   color: #fff !important;
   text-transform: uppercase;
   text-decoration: none;
   background: #440e62;
   padding: 20px;
-  /* align-self: center; */
+  margin-left: 10px;
   margin-block-start: 6px;
-  /* margin-top: 400px;
-  margin-left: 900px; */
   border-radius: 50px;
   display: inline-block;
   border: none;
   transition: all 0.4s ease 0s;
 }
 
-.example_b:hover {
+.register-button:hover {
   text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
   -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
   -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
   transition: all 0.4s ease 0s;
+}
+
+.register-button-m {
+  visibility: hidden;
+}
+
+@media (max-width: 576px) {
+  .register-button-m {
+    visibility: visible;
+    color: #fff !important;
+    text-transform: uppercase;
+    margin-top: 150%;
+    text-decoration: none;
+    background: #440e62;
+    padding: 20px;
+    border-radius: 50px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+  }
+
+  .register-button-m:hover {
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    transition: all 0.4s ease 0s;
+  }
 }
