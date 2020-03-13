@@ -158,7 +158,12 @@ section {
     background: #fff url(../img/IH-bold.png) center center no-repeat;
   }
 }
-
+.linode {
+  margin-top: 80px;
+}
+.sbi-text {
+  text-align: justify;
+}
 /* .devider {
   width: 100%;
   height: 23px;
