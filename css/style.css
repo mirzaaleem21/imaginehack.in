@@ -983,8 +983,8 @@ a.rotate-box-2:hover {
 }
 
 .company-logo {
-  width: 350px;
-  height: 200px;
+  width: auto;
+  height: 150px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
